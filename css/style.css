@@ -355,7 +355,8 @@ ol {
 	width: 685px;
 	max-width: none;
 	position: relative;
-	left: 80px;
+	bottom: 25px;
+	right: 40px;
 }
 
 .hero-text {
