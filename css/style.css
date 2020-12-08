@@ -5,8 +5,6 @@
  ------------------------------------ 
  ====================================*/
 
-
-
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
@@ -199,11 +197,14 @@ ol {
 .comment-form label {
 	/* FF3.6-15 */
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
-	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#439CFB), color-stop(100%, #7A4AE7), color-stop(100%, #7A4AE7), to(#7A4AE7));
+	background: hsla(211, 96%, 62%, 1);
+	background: -webkit-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(258, 77%, 60%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(258, 77%, 60%, 1) 100%);
+	background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(258, 77%, 60%, 1) 100%);
+	background: -o-linear-gradient(left, #439CFB 0%, #7A4AE7 100%, #7A4AE7 100%, #7A4AE7 100%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#439cfb", endColorstr="#7a4ae7", GradientType=1);
 	/* IE6-9 */
 }
 
