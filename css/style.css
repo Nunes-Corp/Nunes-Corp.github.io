@@ -420,7 +420,7 @@ ol {
 
 .about-img {
 	position: absolute;
-	top: 0;
+	top: -75px;
 	left: -120px;
 	width: 662px;
 }
@@ -1475,6 +1475,7 @@ ol {
 		top: 70px;
 	}
 	.about-img {
+		top: 0;
 		left: -50px;
 		width: 600px;
 	}
@@ -1508,6 +1509,7 @@ ol {
 		background-position: right 23% top;
 	}
 	.about-img {
+		top: 0;
 		left: 0px;
 		width: 480px;
 	}
@@ -1564,6 +1566,7 @@ ol {
 		background-size: contain;
 	}
 	.about-img {
+		top: 0;
 		position: relative;
 		display: block;
 		left: 0;
@@ -1697,6 +1700,7 @@ ol {
 		font-size: 40px;
 	}
 	.about-img {
+		top: 0;
 		position: relative;
 		display: block;
 		left: 0;
